@@ -61,3 +61,13 @@ Preencha o caminho em `BASE` caso precise alterar a localização do arquivo tra
 - Arquivo `.json` com categorias não estáveis  
 - Gráficos `.png` de sazonalidade e variação de gasto
 
+### 🧭 Próximos Passos
+
+Como evolução natural da análise, os próximos passos seriam:
+
+1. **Personalização de métricas** — adaptar indicadores (variação, outliers, sazonalidade) ao perfil e comportamento de cada usuário.  
+2. **Modelos preditivos** — aplicar séries temporais para prever gastos futuros e sugerir ações preventivas.  
+3. **Alertas inteligentes** — integrar as métricas a um sistema de alertas proativo e configurável.  
+
+Essas etapas tornariam o sistema mais **inteligente, proativo e personalizado**.
+
