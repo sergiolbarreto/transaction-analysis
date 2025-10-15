@@ -15,11 +15,9 @@ O projeto combina **métricas estatísticas** e **indicadores de tendência** pa
 Durante a execução, o código realiza as seguintes etapas:
 
 1. **Leitura e pré-processamento** do dataset de transações.  
-2. **Cálculo de estatísticas descritivas** (média, desvio padrão, coeficiente de variação).  
+2. **Cálculo de estatísticas descritivas e sazonalidade** (média, desvio padrão, coeficiente de variação).  
 3. **Detecção de outliers** via método IQR (Interquartile Range).  
-4. **Cálculo de métricas personalizadas**, como:
-   - **Overspend Index (OI)** → mede o quanto o gasto atual está acima ou abaixo da média dos 3 meses anteriores.  
-   - **Large Transaction Z-Score (LTZ)** → mede a anormalidade de uma transação dentro da categoria.  
+4. **Proposta de ferramenta acionável (fluxo de alertas)** 
 5. **Identificação de categorias instáveis** (picos ou quedas bruscas).  
 6. **Geração de saídas** em formato `.csv`, `.png` e `.json`.
 
